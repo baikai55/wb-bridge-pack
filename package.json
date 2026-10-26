@@ -1,0 +1,18 @@
+{
+  "name": "workbuddy-qq-bridge",
+  "version": "1.0.0",
+  "description": "QQ 官方机器人 ↔ CodeBuddy CLI 桥接：私聊全权管家、语音全双工、图片收发、Web 控制台",
+  "type": "module",
+  "main": "bridge.mjs",
+  "scripts": {
+    "start": "node bridge.mjs",
+    "capture": "node qqbot.mjs capture"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "silk-wasm": "^3.7.1"
+  },
+  "license": "MIT"
+}

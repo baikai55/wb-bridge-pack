@@ -1,0 +1,13 @@
+.env
+*.env
+!*.env.example
+panel-token.txt
+owner-openid.txt
+node_modules/
+*.log
+bot-config.json
+bot-sessions.json
+proactive.json
+auth.json
+passport.jsonc
+.DS_Store
